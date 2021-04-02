@@ -1,2 +1,14 @@
-# plugin-template
-plugin-template
+# javascript插件模板
+
+## 支持
+
+- js插件打包
+- 打包出压缩版和非压缩版的
+- 支持 ``AMD、CJS、ESM`` 模块引入
+
+## 发布npm
+
+- 登录 ``npm`` 账号：``npm login``
+- 发布：``npm publish``
+
+注意：包名是不能重复的，可以先去 ``npm`` 上查看是不是已经有人发布过同名的包，如果有了，就需要改包名。

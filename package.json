@@ -1,0 +1,26 @@
+{
+  "name": "js-plugin-template",
+  "version": "1.0.0",
+  "description": "js插件模板",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build:dev": "webpack --progress --colors --watch",
+    "build": "webpack --progress --colors"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "plugin",
+    "template"
+  ],
+  "author": "tanggd",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.0.3",
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
